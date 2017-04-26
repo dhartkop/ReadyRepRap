@@ -1,0 +1,24 @@
+CUSTOM BUTTONS G-CODE:
+
+FanOn
+M106;
+
+FanOff
+M107;
+
+Center on Platform
+g28;
+g90;
+g0 Z-272;
+
+LevelingA
+G0 x70 y30;
+
+LevelingB
+G0 x-60 y30;
+
+LevelingC
+G0 x0 y-80;
+
+Middle
+G0 x0 y0;
